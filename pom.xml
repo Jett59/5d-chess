@@ -12,4 +12,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics</artifactId>
+			<version>15</version>
+		</dependency>
+	</dependencies>
 </project>
