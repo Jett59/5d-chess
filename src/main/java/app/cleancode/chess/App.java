@@ -1,5 +1,6 @@
 package app.cleancode.chess;
 
+import app.cleancode.chess.arena.Arena;
 import javafx.application.Application;
 import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
@@ -14,6 +15,8 @@ public static void main(String[] args) {
 		primaryStage.setTitle("5d Chess");
 		primaryStage.setFullScreen(true);
 		primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
+		System.out.println(Arena.init().equals(Arena.instance()));
+		Arena.init();
 		primaryStage.show();
 	}
 
