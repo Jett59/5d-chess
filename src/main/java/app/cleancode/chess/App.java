@@ -15,8 +15,7 @@ public static void main(String[] args) {
 		primaryStage.setTitle("5d Chess");
 		primaryStage.setFullScreen(true);
 		primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
-		System.out.println(Arena.init().equals(Arena.instance()));
-		Arena.init();
+		Arena.init().bind(primaryStage).start();
 		primaryStage.show();
 	}
 
