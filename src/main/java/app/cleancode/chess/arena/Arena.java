@@ -16,4 +16,6 @@ public static Arena instance () {
 	return instance;
 }
 
+private Arena () {}
+
 }
